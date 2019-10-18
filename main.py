@@ -9,6 +9,7 @@ def qr_code_generator(strings='Hello World'):
 
 def main():
     img = qr_code_generator()
+    img.save('test.png')
 
 
 
